@@ -12,7 +12,7 @@ import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = ' '
 user_api_key = st.sidebar.text_input(
     label="#### Your OpenAI API key 👇",
     placeholder="Paste your openAI API key, sk-",
